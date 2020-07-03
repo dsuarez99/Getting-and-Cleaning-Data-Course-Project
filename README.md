@@ -4,11 +4,11 @@ Based on information collected from the website [Link to study](http://archive.i
 
 ## Files
 In the repository where this README is stored, you can find the following files:
-- UCI HAR Dataset the original dataset used to perform the analysis
-- run_analysis.R contains the script developed in R with the purpose of tidying the dataset and answering the given questions
-- dataset1.txt where you can find the tidy dataset requested for question 4 of the project
-- dataset2.txt where you can find the tidy dataset requested for question 5 of the project
-- codebook.md which describes the different variables obtained by the analysis of the UCI HAR Dataset
+- `UCI HAR Dataset` the original dataset used to perform the analysis
+- `run_analysis.R` contains the script developed in R with the purpose of tidying the dataset and answering the given questions
+- `dataset1.txt` where you can find the tidy dataset requested for question 4 of the project
+- `dataset2.txt` where you can find the tidy dataset requested for question 5 of the project
+- `codebook.md` which describes the different variables obtained by the analysis of the UCI HAR Dataset
 
 ## How script works?
 1. Load the required packages for the code to work
