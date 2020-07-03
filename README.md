@@ -11,6 +11,8 @@ In the repository where this README is stored, you can find the following files:
 - codebook.md which describes the different variables obtained by the analysis of the UCI HAR Dataset
 
 ## How script works?
-
+1. Load the required packages for the code to work
+2. Create the working directory in case it doesnt exists
+3. 
 
 
