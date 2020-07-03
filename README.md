@@ -12,7 +12,17 @@ In the repository where this README is stored, you can find the following files:
 
 ## How script works?
 1. Load the required packages for the code to work
-2. Create the working directory in case it doesnt exists
-3. 
-
-
+2. Create the working directory in case it does not exist
+3. Download the zip File from the provided link
+4. Unzip the downloaded file
+5. Load `train` dataset
+6. Load column names for the `X_train` dataset
+7. Select only the columns that contain the `mean()` or `std()` calculations
+8. Merge `subject_train`, `y_train` and `x_train` datasets
+9. Load `test` data set and repeat steps 6 to 8 for the just loaded data
+10. Merge `test` and `train` into one dataset
+11. Sort `FinalDF` in ascending order of subject and then of activity
+12. Add descriptive activity names to name the activities in the data set
+13. Label the data set with descriptive variable names
+14. Create a second, independent tidy data set with the average of each variable for each activity and each subject
+15. Print both data sets
